@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admission form</title>
+</head>
+<body>
+	<h1>COLLEGE ADMISSION FORM</h1>
+	<div id="reg-form">
+		<form action="" method="">
+            <label ><b>Name:</b></label><br>
+			<label for="first_name">First Name:</label>
+			<input type="text" name="first_name" placeholder="Aryya" required>
+			<label for="last_name">Last Name:</label>
+			<input type="text" name="last_name" placeholder="paul" required>
+			<div>
+                <label ><b>Gender:</b></label><br>
+				<label for="gender_male">Male</label>
+				<input type="radio" name="gender_choice" value="choice-1">
+				<label for="gender_female">Female</label>
+				<input type="radio" name="gender_choice" value="choice_2">
+				<label for="gender_other">Other</label>
+				<input type="radio" name="gender_choice" value="choice_3">
+			</div>
+			<div>
+				<label for="dob"><b>Date of Birth:</b></label><br>
+                <input type="date" id="dob" name="dob" required><br>
+                <label for="phone"><b>Phone Number:</b></label><br>
+                <input type="tel" id="phone" name="phone" placeholder="(000)000-0000" required><br>
+			</div>
+            <div>
+                <label for="email"><b>Email:</b></label><br>
+                <input type="text" name="email" placeholder="123446566@gmail.com" required>
+            </div>
+            <div>
+            <label for="address"><b>Address:</b></label><br>
+        <textarea id="address" name="address" rows="4" required></textarea><br>
+        <div>
+            <b><h2>Education details:</h2></b>
+			<label for="school_name">School Name</label>
+			<input type="text" id="school_name" name="school_name"  required>
+			<label for="percentage">percentage/grade</label>
+			<input type="text" id="percentage" name="percentage"  required><br>
+			<label for="collage_name">Inter collage name:</label>
+			<input type="text" id="collage_name" name="collage_name" required>
+			<label for="percentage">percentage/grade:</label>
+			<input type="text" id="percentage" name="percentage"  required><br>
+			<label for="rank">Eapcet Rank:</label>
+			<input type="text" id="rank" name="rank"  required>
+			
+
+
+        </div>
+        </div>
+			<label for ="agree">I agree to all the condition of the forms:</label>
+			<input type="checkbox" name="agree"><br>
+			<input type="submit"></buttun>
+		</form>
+	</div>
+</body>
+</html>
